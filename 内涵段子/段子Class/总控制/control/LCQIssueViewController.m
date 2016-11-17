@@ -9,9 +9,10 @@
 #import "LCQIssueViewController.h"
 #import "LCQButton.h"
 
-@interface LCQIssueViewController ()
+typedef void(^animationFished)();
 
-@property (nonatomic,strong) UIImageView *topImageView;
+
+@interface LCQIssueViewController ()
 
 @end
 
@@ -20,15 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    _topImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"app_slogan"]];
-    
 
-    _topImageView.centerX = SCREEN_WIDTH*0.5;
-    _topImageView.centerY = SCREEN_HEIGHT*0.2;
-    
-    [self.view addSubview:_topImageView];
-    
+    self.view.userInteractionEnabled = NO;
     
     NSArray *imageNameArray = @[@"publish-video",@"publish-picture",@"publish-text",@"publish-audio",@"publish-review",@"publish-offline"];
     
@@ -57,56 +51,133 @@
         NSInteger row = i%oneLineNum;
         
         NSInteger buttonX = horizonBeginSpace + row * (buttonWidth + horizonCenterSpace);
-        NSInteger buttonY = verticaBeginSpace + line* (buttonHeith +  + verticaSpace);
-        
-        button.frame = CGRectMake(buttonX, buttonY, buttonWidth, buttonHeith);
 
+        NSInteger buttonToY = verticaBeginSpace + line* (buttonHeith +  + verticaSpace);
+        NSInteger buttonFromY = buttonToY - SCREEN_HEIGHT;
+        
+        button.frame = CGRectMake(buttonX, buttonFromY, buttonWidth, buttonHeith);
+
+        [button addTarget:self action:@selector(issueButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+        
+        button.tag = 1000+i;
+        
         [self.view addSubview:button];
         
+        POPSpringAnimation *buttonSpringAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
+        
+        buttonSpringAnimation.fromValue = [NSValue valueWithCGRect:CGRectMake(buttonX,buttonFromY , buttonWidth, buttonHeith)];
+        buttonSpringAnimation.toValue = [NSValue valueWithCGRect:CGRectMake(buttonX, buttonToY, buttonWidth, buttonHeith)];
+        
+        buttonSpringAnimation.springSpeed = 10;
+        buttonSpringAnimation.springBounciness = 10;
+        
+        buttonSpringAnimation.beginTime = CACurrentMediaTime()+(imageNameArray.count - i)*0.1;
+        
+        [button pop_addAnimation:buttonSpringAnimation forKey:[NSString stringWithFormat:@"buttonSpring%d",i]];
     }
+    
+    
+    UIImageView *topImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"app_slogan"]];
+    
+    topImageView.tag = 1000 + imageNameArray.count;
+    
+    topImageView.centerX = SCREEN_WIDTH*0.5;
+    topImageView.centerY = SCREEN_HEIGHT*0.2 - SCREEN_HEIGHT;
+    
+    [self.view addSubview:topImageView];
+    
+    POPSpringAnimation *topImageViewSpringAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];
+    
+    topImageViewSpringAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(topImageView.centerX, topImageView.centerY)];
+    topImageViewSpringAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(SCREEN_WIDTH*0.5, SCREEN_HEIGHT*0.2)];;
+    
+    topImageViewSpringAnimation.springSpeed = 10;
+    topImageViewSpringAnimation.springBounciness = 10;
+    
+    topImageViewSpringAnimation.beginTime = CACurrentMediaTime()+imageNameArray.count *0.1;
+    
+
+    [topImageViewSpringAnimation setCompletionBlock:^(POPAnimation *pop, BOOL fineshed){
+            if (fineshed)
+            {
+                self.view.userInteractionEnabled = YES;
+            }
+        }];
+    
+    [topImageView pop_addAnimation:topImageViewSpringAnimation forKey:@"topImageViewSpring"];
+
 }
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    
-//    POPSpringAnimation *myPopAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
-//    
-//    myPopAnimation.fromValue = @(200);
-//    myPopAnimation.toValue = @(500);
-//    
-//    myPopAnimation.springSpeed = 20;
-//    myPopAnimation.springBounciness = 30;
-//    
-//    [self.topImageView.layer pop_addAnimation:myPopAnimation forKey:@"TestKey"];
-    
-    POPSpringAnimation *myPopAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];
-    
-    myPopAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(50, 50)];
-    myPopAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
-    
-    myPopAnimation.springSpeed = 20;
-    myPopAnimation.springBounciness = 30;
-    
-    [self.topImageView pop_addAnimation:myPopAnimation forKey:@"TestKey"];
-    
-    
-    
-}
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)canceButtonClick:(id)sender
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self dismissViewControllerAnimated:NO completion:^{
-        
-    }];
+    [self canceButtonClick:nil];
     
 }
+
+-(void)issueButtonClick:(UIButton *)button
+{
+    self.view.userInteractionEnabled = NO;
+    [self removeIssueButton:^{
+
+        NSLog(@"%ld",button.tag);
+    }];
+
+}
+
+- (IBAction)canceButtonClick:(id)sender
+{
+    self.view.userInteractionEnabled = NO;
+    [self removeIssueButton:^{
+        
+    }];
+}
+
+-(void)removeIssueButton:(animationFished)fishedBlock
+{
+    for (int i = 0; i<7; i++)
+    {
+        UIView *tempButton = [self.view viewWithTag:1000+i];
+        
+        POPSpringAnimation *buttonSpringAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
+        
+        buttonSpringAnimation.fromValue = [NSValue valueWithCGRect:CGRectMake(tempButton.x,tempButton.y , tempButton.width, tempButton.height)];
+        buttonSpringAnimation.toValue = [NSValue valueWithCGRect:CGRectMake(tempButton.x,tempButton.y + SCREEN_HEIGHT, tempButton.width, tempButton.height)];
+        
+        buttonSpringAnimation.springSpeed = 10;
+        buttonSpringAnimation.springBounciness = 0;
+        
+        buttonSpringAnimation.beginTime = CACurrentMediaTime()+ i*0.1;
+        [tempButton pop_addAnimation:buttonSpringAnimation forKey:[NSString stringWithFormat:@"buttonSpringOut%d",i]];
+        
+        if (i ==6 )
+        {
+            [buttonSpringAnimation setCompletionBlock:^(POPAnimation *pop, BOOL fished) {
+                
+                if (fished == YES)
+                {
+                    [self dismissViewControllerAnimated:NO completion:^{
+                        
+                    }];
+                    
+                    fishedBlock();
+                }
+            }];
+        }
+    }
+    
+    
+    
+    
+    
+    
+}
+
 
 
 /*

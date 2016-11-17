@@ -41,6 +41,8 @@
 		2542BCC41DD5A1C600198448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2542BCC21DD5A1C600198448 /* LaunchScreen.storyboard */; };
 		2542BCCF1DD5A1C600198448 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542BCCE1DD5A1C600198448 /* ____Tests.m */; };
 		2542BCDA1DD5A1C600198448 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542BCD91DD5A1C600198448 /* ____UITests.m */; };
+		25FA114B1DDDA13200A9AB8D /* LCQGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FA114A1DDDA13200A9AB8D /* LCQGuideView.m */; };
+		25FA114D1DDDA19900A9AB8D /* LCQGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA114C1DDDA19900A9AB8D /* LCQGuideView.xib */; };
 		7AA42EA0B8CFD2193C934457 /* libPods-内涵段子UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E7BA08AAE8B3FD0A29F177 /* libPods-内涵段子UITests.a */; };
 		D2FB8B51AD1232DF1997A1B2 /* libPods-内涵段子Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 055A089701AD6F7108F762A0 /* libPods-内涵段子Tests.a */; };
 /* End PBXBuildFile section */
@@ -123,6 +125,9 @@
 		2542BCD51DD5A1C600198448 /* 内涵段子UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "内涵段子UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2542BCD91DD5A1C600198448 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		2542BCDB1DD5A1C600198448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FA11491DDDA13200A9AB8D /* LCQGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQGuideView.h; sourceTree = "<group>"; };
+		25FA114A1DDDA13200A9AB8D /* LCQGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQGuideView.m; sourceTree = "<group>"; };
+		25FA114C1DDDA19900A9AB8D /* LCQGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQGuideView.xib; sourceTree = "<group>"; };
 		28E7BA08AAE8B3FD0A29F177 /* libPods-内涵段子UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-内涵段子UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CBA8BB0708404F5C5C1B92 /* Pods-内涵段子Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-内涵段子Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-内涵段子Tests/Pods-内涵段子Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32C7AF8D22F5D08F829124BD /* Pods-内涵段子.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-内涵段子.release.xcconfig"; path = "Pods/Target Support Files/Pods-内涵段子/Pods-内涵段子.release.xcconfig"; sourceTree = "<group>"; };
@@ -271,6 +276,9 @@
 				253AE1A61DDD839D0046D0C3 /* LCQButton.m */,
 				253AE1A71DDD839D0046D0C3 /* LCQTabBar.h */,
 				253AE1A81DDD839D0046D0C3 /* LCQTabBar.m */,
+				25FA11491DDDA13200A9AB8D /* LCQGuideView.h */,
+				25FA114A1DDDA13200A9AB8D /* LCQGuideView.m */,
+				25FA114C1DDDA19900A9AB8D /* LCQGuideView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -588,6 +596,7 @@
 				253AE1CB1DDD839D0046D0C3 /* LCQCustomNavigationController.xib in Resources */,
 				2542BCC41DD5A1C600198448 /* LaunchScreen.storyboard in Resources */,
 				2542BCC11DD5A1C600198448 /* Assets.xcassets in Resources */,
+				25FA114D1DDDA19900A9AB8D /* LCQGuideView.xib in Resources */,
 				253AE1D61DDD839D0046D0C3 /* LCQEssenceViewController.xib in Resources */,
 				253AE1C71DDD839D0046D0C3 /* LCQSuggestRightTableViewCell.xib in Resources */,
 				253AE1CD1DDD839D0046D0C3 /* LCQIssueViewController.xib in Resources */,
@@ -766,6 +775,7 @@
 				253AE1C01DDD839D0046D0C3 /* LCQSuggestAttentionViewController.m in Sources */,
 				253AE1BE1DDD839D0046D0C3 /* LCQAttentionViewController.m in Sources */,
 				253AE1C81DDD839D0046D0C3 /* UIBarButtonItem+CustomButton.m in Sources */,
+				25FA114B1DDDA13200A9AB8D /* LCQGuideView.m in Sources */,
 				2542BCBC1DD5A1C600198448 /* ViewController.m in Sources */,
 				253AE1C91DDD839D0046D0C3 /* UIView+ZRCategory.m in Sources */,
 				253AE1C61DDD839D0046D0C3 /* LCQSuggestRightTableViewCell.m in Sources */,

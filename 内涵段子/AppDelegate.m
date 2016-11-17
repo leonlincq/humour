@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LCQTabBarViewController.h"
+#import "LCQGuideView.h"
 
 @interface AppDelegate ()
 
@@ -19,10 +20,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
     
     LCQTabBarViewController *TBCtr = [[LCQTabBarViewController alloc]init];
 
     self.window.rootViewController = TBCtr;
+    
+    [self.window makeKeyAndVisible];
+    
+    LCQGuideView *lcqGuideView = [LCQGuideView loadGuideXib];
+    lcqGuideView.frame = self.window.bounds;
+    [self.window addSubview:lcqGuideView];
     
     return YES;
 }

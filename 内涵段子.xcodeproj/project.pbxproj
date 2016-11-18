@@ -41,6 +41,15 @@
 		2542BCC41DD5A1C600198448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2542BCC21DD5A1C600198448 /* LaunchScreen.storyboard */; };
 		2542BCCF1DD5A1C600198448 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542BCCE1DD5A1C600198448 /* ____Tests.m */; };
 		2542BCDA1DD5A1C600198448 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542BCD91DD5A1C600198448 /* ____UITests.m */; };
+		255F87171DDEDF4C00644357 /* LCQALLDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F87151DDEDF4C00644357 /* LCQALLDataTableViewController.m */; };
+		255F87181DDEDF4C00644357 /* LCQALLDataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F87161DDEDF4C00644357 /* LCQALLDataTableViewController.xib */; };
+		255F871C1DDEDF8E00644357 /* LCQVideoDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F871A1DDEDF8E00644357 /* LCQVideoDataTableViewController.m */; };
+		255F871D1DDEDF8E00644357 /* LCQVideoDataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F871B1DDEDF8E00644357 /* LCQVideoDataTableViewController.xib */; };
+		255F87211DDEDF9A00644357 /* LCQPicDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F871F1DDEDF9A00644357 /* LCQPicDataTableViewController.m */; };
+		255F87221DDEDF9A00644357 /* LCQPicDataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F87201DDEDF9A00644357 /* LCQPicDataTableViewController.xib */; };
+		255F87251DDEDFB400644357 /* LCQTextDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F87241DDEDFB400644357 /* LCQTextDataTableViewController.m */; };
+		255F87291DDEDFCD00644357 /* LCQAudioDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F87271DDEDFCD00644357 /* LCQAudioDataTableViewController.m */; };
+		255F872A1DDEDFCD00644357 /* LCQAudioDataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F87281DDEDFCD00644357 /* LCQAudioDataTableViewController.xib */; };
 		25FA114B1DDDA13200A9AB8D /* LCQGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FA114A1DDDA13200A9AB8D /* LCQGuideView.m */; };
 		25FA114D1DDDA19900A9AB8D /* LCQGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA114C1DDDA19900A9AB8D /* LCQGuideView.xib */; };
 		7AA42EA0B8CFD2193C934457 /* libPods-内涵段子UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E7BA08AAE8B3FD0A29F177 /* libPods-内涵段子UITests.a */; };
@@ -125,6 +134,20 @@
 		2542BCD51DD5A1C600198448 /* 内涵段子UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "内涵段子UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2542BCD91DD5A1C600198448 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		2542BCDB1DD5A1C600198448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255F87141DDEDF4C00644357 /* LCQALLDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQALLDataTableViewController.h; sourceTree = "<group>"; };
+		255F87151DDEDF4C00644357 /* LCQALLDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQALLDataTableViewController.m; sourceTree = "<group>"; };
+		255F87161DDEDF4C00644357 /* LCQALLDataTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQALLDataTableViewController.xib; sourceTree = "<group>"; };
+		255F87191DDEDF8E00644357 /* LCQVideoDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQVideoDataTableViewController.h; sourceTree = "<group>"; };
+		255F871A1DDEDF8E00644357 /* LCQVideoDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQVideoDataTableViewController.m; sourceTree = "<group>"; };
+		255F871B1DDEDF8E00644357 /* LCQVideoDataTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQVideoDataTableViewController.xib; sourceTree = "<group>"; };
+		255F871E1DDEDF9A00644357 /* LCQPicDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQPicDataTableViewController.h; sourceTree = "<group>"; };
+		255F871F1DDEDF9A00644357 /* LCQPicDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQPicDataTableViewController.m; sourceTree = "<group>"; };
+		255F87201DDEDF9A00644357 /* LCQPicDataTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQPicDataTableViewController.xib; sourceTree = "<group>"; };
+		255F87231DDEDFB400644357 /* LCQTextDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQTextDataTableViewController.h; sourceTree = "<group>"; };
+		255F87241DDEDFB400644357 /* LCQTextDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQTextDataTableViewController.m; sourceTree = "<group>"; };
+		255F87261DDEDFCD00644357 /* LCQAudioDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQAudioDataTableViewController.h; sourceTree = "<group>"; };
+		255F87271DDEDFCD00644357 /* LCQAudioDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQAudioDataTableViewController.m; sourceTree = "<group>"; };
+		255F87281DDEDFCD00644357 /* LCQAudioDataTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQAudioDataTableViewController.xib; sourceTree = "<group>"; };
 		25FA11491DDDA13200A9AB8D /* LCQGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQGuideView.h; sourceTree = "<group>"; };
 		25FA114A1DDDA13200A9AB8D /* LCQGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQGuideView.m; sourceTree = "<group>"; };
 		25FA114C1DDDA19900A9AB8D /* LCQGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQGuideView.xib; sourceTree = "<group>"; };
@@ -367,6 +390,20 @@
 				253AE1B91DDD839D0046D0C3 /* LCQEssenceViewController.h */,
 				253AE1BA1DDD839D0046D0C3 /* LCQEssenceViewController.m */,
 				253AE1BB1DDD839D0046D0C3 /* LCQEssenceViewController.xib */,
+				255F87141DDEDF4C00644357 /* LCQALLDataTableViewController.h */,
+				255F87151DDEDF4C00644357 /* LCQALLDataTableViewController.m */,
+				255F87161DDEDF4C00644357 /* LCQALLDataTableViewController.xib */,
+				255F87191DDEDF8E00644357 /* LCQVideoDataTableViewController.h */,
+				255F871A1DDEDF8E00644357 /* LCQVideoDataTableViewController.m */,
+				255F871B1DDEDF8E00644357 /* LCQVideoDataTableViewController.xib */,
+				255F871E1DDEDF9A00644357 /* LCQPicDataTableViewController.h */,
+				255F871F1DDEDF9A00644357 /* LCQPicDataTableViewController.m */,
+				255F87201DDEDF9A00644357 /* LCQPicDataTableViewController.xib */,
+				255F87231DDEDFB400644357 /* LCQTextDataTableViewController.h */,
+				255F87241DDEDFB400644357 /* LCQTextDataTableViewController.m */,
+				255F87261DDEDFCD00644357 /* LCQAudioDataTableViewController.h */,
+				255F87271DDEDFCD00644357 /* LCQAudioDataTableViewController.m */,
+				255F87281DDEDFCD00644357 /* LCQAudioDataTableViewController.xib */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -596,12 +633,16 @@
 				253AE1CB1DDD839D0046D0C3 /* LCQCustomNavigationController.xib in Resources */,
 				2542BCC41DD5A1C600198448 /* LaunchScreen.storyboard in Resources */,
 				2542BCC11DD5A1C600198448 /* Assets.xcassets in Resources */,
+				255F87181DDEDF4C00644357 /* LCQALLDataTableViewController.xib in Resources */,
 				25FA114D1DDDA19900A9AB8D /* LCQGuideView.xib in Resources */,
 				253AE1D61DDD839D0046D0C3 /* LCQEssenceViewController.xib in Resources */,
+				255F871D1DDEDF8E00644357 /* LCQVideoDataTableViewController.xib in Resources */,
 				253AE1C71DDD839D0046D0C3 /* LCQSuggestRightTableViewCell.xib in Resources */,
 				253AE1CD1DDD839D0046D0C3 /* LCQIssueViewController.xib in Resources */,
 				2542BCBF1DD5A1C600198448 /* Main.storyboard in Resources */,
+				255F87221DDEDF9A00644357 /* LCQPicDataTableViewController.xib in Resources */,
 				253AE1D41DDD839D0046D0C3 /* LCQNewViewController.xib in Resources */,
+				255F872A1DDEDFCD00644357 /* LCQAudioDataTableViewController.xib in Resources */,
 				253AE1D21DDD839D0046D0C3 /* LCQMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,13 +806,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255F87211DDEDF9A00644357 /* LCQPicDataTableViewController.m in Sources */,
 				253AE1C41DDD839D0046D0C3 /* LCQSuggestLeftTableViewCell.m in Sources */,
 				253AE1CA1DDD839D0046D0C3 /* LCQCustomNavigationController.m in Sources */,
 				253AE1D01DDD839D0046D0C3 /* LCQTabBar.m in Sources */,
+				255F87171DDEDF4C00644357 /* LCQALLDataTableViewController.m in Sources */,
 				253AE1D11DDD839D0046D0C3 /* LCQMeViewController.m in Sources */,
 				253AE1CF1DDD839D0046D0C3 /* LCQButton.m in Sources */,
 				253AE1CC1DDD839D0046D0C3 /* LCQIssueViewController.m in Sources */,
 				253AE1D51DDD839D0046D0C3 /* LCQEssenceViewController.m in Sources */,
+				255F87291DDEDFCD00644357 /* LCQAudioDataTableViewController.m in Sources */,
 				253AE1C01DDD839D0046D0C3 /* LCQSuggestAttentionViewController.m in Sources */,
 				253AE1BE1DDD839D0046D0C3 /* LCQAttentionViewController.m in Sources */,
 				253AE1C81DDD839D0046D0C3 /* UIBarButtonItem+CustomButton.m in Sources */,
@@ -781,9 +825,11 @@
 				253AE1C61DDD839D0046D0C3 /* LCQSuggestRightTableViewCell.m in Sources */,
 				253AE1CE1DDD839D0046D0C3 /* LCQTabBarViewController.m in Sources */,
 				2542BCB91DD5A1C600198448 /* AppDelegate.m in Sources */,
+				255F87251DDEDFB400644357 /* LCQTextDataTableViewController.m in Sources */,
 				253AE1C21DDD839D0046D0C3 /* LCQSuggestLeftModel.m in Sources */,
 				253AE1C31DDD839D0046D0C3 /* LCQSuggestRightModel.m in Sources */,
 				253AE1D31DDD839D0046D0C3 /* LCQNewViewController.m in Sources */,
+				255F871C1DDEDF8E00644357 /* LCQVideoDataTableViewController.m in Sources */,
 				2542BCB61DD5A1C500198448 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

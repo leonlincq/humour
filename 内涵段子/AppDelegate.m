@@ -20,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     
@@ -28,11 +29,8 @@
     self.window.rootViewController = TBCtr;
     
     [self.window makeKeyAndVisible];
-    
-    LCQGuideView *lcqGuideView = [LCQGuideView loadGuideXib];
-    lcqGuideView.frame = self.window.bounds;
-    [self.window addSubview:lcqGuideView];
-    
+
+    [LCQGuideView showLoadGuideView];
     return YES;
 }
 

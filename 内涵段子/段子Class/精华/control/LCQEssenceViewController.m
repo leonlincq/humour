@@ -196,7 +196,7 @@
     UITableViewController *tempTBViewCtr = self.childViewControllers[index];
     
     tempTBViewCtr.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.secFakeNaviView.frame), 0, 49, 0);
-    
+    tempTBViewCtr.tableView.scrollIndicatorInsets = tempTBViewCtr.tableView.contentInset;
     tempTBViewCtr.view.x = scrollView.contentOffset.x;
     tempTBViewCtr.view.y = 0;
     tempTBViewCtr.view.width = scrollView.width;

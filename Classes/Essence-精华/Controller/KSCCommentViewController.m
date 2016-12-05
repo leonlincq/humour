@@ -186,6 +186,7 @@ static NSString * const KSCCommentId = @"comment";
     
     // 添加cell
     KSCTopicCell *cell = [KSCTopicCell viewFromXib];
+    cell.viewController = self;
     cell.topic = self.topic;
     cell.size = CGSizeMake(KSCScreenW, self.topic.cellHeight);
     [header addSubview:cell];

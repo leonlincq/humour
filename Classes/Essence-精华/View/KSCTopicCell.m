@@ -174,23 +174,42 @@
     [super setFrame:frame];
 }
 
-- (IBAction)more {
-    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"收藏", @"举报", nil];
-    [sheet showInView:self.window];
+- (IBAction)more
+{
+    UIAlertController *alerCtr = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     
+    UIAlertAction *collectionAction = [UIAlertAction actionWithTitle:@"收藏" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    UIAlertAction *reportAction = [UIAlertAction actionWithTitle:@"举报" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    UIAlertAction *canceAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [alerCtr addAction:collectionAction];
+    [alerCtr addAction:reportAction];
+    [alerCtr addAction:canceAction];
+    
+    [self.viewController presentViewController:alerCtr animated:YES completion:^{
+        
+    }];
 }
 
-#pragma mark - <UIActionSheetDelegate>
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-}
+//#pragma mark - <UIActionSheetDelegate>
+//- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+//{
+//}
 
-- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex == 2) return;
-    
-    if ([KSCLoginTool getUid] == nil) return;
-    
-    // 开始执行举报\收藏操作
-}
+//- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
+//{
+//    if (buttonIndex == 2) return;
+//    
+//    if ([KSCLoginTool getUid] == nil) return;
+//    
+//    // 开始执行举报\收藏操作
+//}
 @end

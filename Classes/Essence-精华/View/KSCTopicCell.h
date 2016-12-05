@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 @class KSCTopic;
+
 @interface KSCTopicCell : UITableViewCell
 /** 帖子数据 */
 @property (nonatomic, strong) KSCTopic *topic;
+
+@property (nonatomic,assign) UIViewController *viewController;
+
 @end

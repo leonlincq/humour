@@ -4,7 +4,7 @@
 //  MJRefreshExample
 //
 //  Created by MJ Lee on 15/3/5.
-//  Copyright (c) 2015年 小码哥. All rights reserved.
+//  Copyright (c) 2015年 Leonlincq. All rights reserved.
 //  上拉刷新控件
 
 #import "MJRefreshComponent.h"

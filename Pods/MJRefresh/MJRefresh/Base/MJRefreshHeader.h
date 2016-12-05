@@ -4,7 +4,7 @@
 //  MJRefreshExample
 //
 //  Created by MJ Lee on 15/3/4.
-//  Copyright (c) 2015年 小码哥. All rights reserved.
+//  Copyright (c) 2015年 Leonlincq. All rights reserved.
 //  下拉刷新控件:负责监控用户下拉的状态
 
 #import "MJRefreshComponent.h"

@@ -1,0 +1,1369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE8A5BD97C703A234F3CA81 /* libPods-KSCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 751A6B7C3BF17D7B9CB0B678 /* libPods-KSCTests.a */; };
+		20E696871DF44DEF00A25C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E696861DF44DEF00A25C00 /* main.m */; };
+		20E6968A1DF44DEF00A25C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E696891DF44DEF00A25C00 /* AppDelegate.m */; };
+		20E6968D1DF44DEF00A25C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6968C1DF44DEF00A25C00 /* ViewController.m */; };
+		20E696901DF44DEF00A25C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E6968E1DF44DEF00A25C00 /* Main.storyboard */; };
+		20E696921DF44DEF00A25C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E696911DF44DEF00A25C00 /* Assets.xcassets */; };
+		20E696951DF44DEF00A25C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E696931DF44DEF00A25C00 /* LaunchScreen.storyboard */; };
+		20E696A01DF44DEF00A25C00 /* KSCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6969F1DF44DEF00A25C00 /* KSCTests.m */; };
+		20E696AB1DF44DEF00A25C00 /* KSCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E696AA1DF44DEF00A25C00 /* KSCUITests.m */; };
+		2543B3961DF50B1700A36567 /* KSCCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B2FE1DF50B1700A36567 /* KSCCommentViewController.m */; };
+		2543B3971DF50B1700A36567 /* KSCCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B2FF1DF50B1700A36567 /* KSCCommentViewController.xib */; };
+		2543B3981DF50B1700A36567 /* KSCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3011DF50B1700A36567 /* KSCEssenceViewController.m */; };
+		2543B3991DF50B1700A36567 /* KSCRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3031DF50B1700A36567 /* KSCRecommendTagsViewController.m */; };
+		2543B39A1DF50B1700A36567 /* KSCShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3051DF50B1700A36567 /* KSCShowPictureViewController.m */; };
+		2543B39B1DF50B1700A36567 /* KSCShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3061DF50B1700A36567 /* KSCShowPictureViewController.xib */; };
+		2543B39C1DF50B1700A36567 /* KSCTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3081DF50B1700A36567 /* KSCTopicViewController.m */; };
+		2543B39D1DF50B1700A36567 /* KSCComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B30B1DF50B1700A36567 /* KSCComment.m */; };
+		2543B39E1DF50B1700A36567 /* KSCRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B30D1DF50B1700A36567 /* KSCRecommendTag.m */; };
+		2543B39F1DF50B1700A36567 /* KSCTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B30F1DF50B1700A36567 /* KSCTopic.m */; };
+		2543B3A01DF50B1700A36567 /* KSCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3111DF50B1700A36567 /* KSCUser.m */; };
+		2543B3A11DF50B1700A36567 /* KSCCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3141DF50B1700A36567 /* KSCCommentCell.m */; };
+		2543B3A21DF50B1700A36567 /* KSCCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3151DF50B1700A36567 /* KSCCommentCell.xib */; };
+		2543B3A31DF50B1700A36567 /* KSCCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3171DF50B1700A36567 /* KSCCommentHeaderView.m */; };
+		2543B3A41DF50B1700A36567 /* KSCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3191DF50B1700A36567 /* KSCProgressView.m */; };
+		2543B3A51DF50B1700A36567 /* KSCRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B31B1DF50B1700A36567 /* KSCRecommendTagCell.m */; };
+		2543B3A61DF50B1700A36567 /* KSCRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B31C1DF50B1700A36567 /* KSCRecommendTagCell.xib */; };
+		2543B3A71DF50B1700A36567 /* KSCTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B31E1DF50B1700A36567 /* KSCTopicCell.m */; };
+		2543B3A81DF50B1700A36567 /* KSCTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B31F1DF50B1700A36567 /* KSCTopicCell.xib */; };
+		2543B3A91DF50B1700A36567 /* KSCTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3211DF50B1700A36567 /* KSCTopicPictureView.m */; };
+		2543B3AA1DF50B1700A36567 /* KSCTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3221DF50B1700A36567 /* KSCTopicPictureView.xib */; };
+		2543B3AB1DF50B1700A36567 /* KSCTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3241DF50B1700A36567 /* KSCTopicVideoView.m */; };
+		2543B3AC1DF50B1700A36567 /* KSCTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3251DF50B1700A36567 /* KSCTopicVideoView.xib */; };
+		2543B3AD1DF50B1700A36567 /* KSCTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3271DF50B1700A36567 /* KSCTopicVoiceView.m */; };
+		2543B3AE1DF50B1700A36567 /* KSCTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3281DF50B1700A36567 /* KSCTopicVoiceView.xib */; };
+		2543B3AF1DF50B1700A36567 /* KSCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B32C1DF50B1700A36567 /* KSCFriendTrendsViewController.m */; };
+		2543B3B01DF50B1700A36567 /* KSCFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B32D1DF50B1700A36567 /* KSCFriendTrendsViewController.xib */; };
+		2543B3B11DF50B1700A36567 /* KSCLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B32F1DF50B1700A36567 /* KSCLoginRegisterViewController.m */; };
+		2543B3B21DF50B1700A36567 /* KSCLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3301DF50B1700A36567 /* KSCLoginRegisterViewController.xib */; };
+		2543B3B31DF50B1700A36567 /* KSCRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3321DF50B1700A36567 /* KSCRecommendViewController.m */; };
+		2543B3B41DF50B1700A36567 /* KSCRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B3331DF50B1700A36567 /* KSCRecommendViewController.xib */; };
+		2543B3B51DF50B1700A36567 /* KSCRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3361DF50B1700A36567 /* KSCRecommendCategory.m */; };
+		2543B3B61DF50B1700A36567 /* KSCRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3381DF50B1700A36567 /* KSCRecommendUser.m */; };
+		2543B3B71DF50B1700A36567 /* KSCRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B33B1DF50B1700A36567 /* KSCRecommendCategoryCell.m */; };
+		2543B3B81DF50B1700A36567 /* KSCRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B33C1DF50B1700A36567 /* KSCRecommendCategoryCell.xib */; };
+		2543B3B91DF50B1700A36567 /* KSCRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B33E1DF50B1700A36567 /* KSCRecommendUserCell.m */; };
+		2543B3BA1DF50B1700A36567 /* KSCRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B33F1DF50B1700A36567 /* KSCRecommendUserCell.xib */; };
+		2543B3BB1DF50B1700A36567 /* KSCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3411DF50B1700A36567 /* KSCTextField.m */; };
+		2543B3BC1DF50B1700A36567 /* KSCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3431DF50B1700A36567 /* KSCVerticalButton.m */; };
+		2543B3BD1DF50B1700A36567 /* KSCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3471DF50B1700A36567 /* KSCMeViewController.m */; };
+		2543B3BE1DF50B1700A36567 /* KSCSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3491DF50B1700A36567 /* KSCSettingViewController.m */; };
+		2543B3BF1DF50B1700A36567 /* KSCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B34B1DF50B1700A36567 /* KSCWebViewController.m */; };
+		2543B3C01DF50B1700A36567 /* KSCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B34C1DF50B1700A36567 /* KSCWebViewController.xib */; };
+		2543B3C11DF50B1700A36567 /* LCQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B34E1DF50B1700A36567 /* LCQViewController.m */; };
+		2543B3C21DF50B1700A36567 /* LCQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B34F1DF50B1700A36567 /* LCQViewController.xib */; };
+		2543B3C31DF50B1700A36567 /* KSCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3521DF50B1700A36567 /* KSCSquare.m */; };
+		2543B3C41DF50B1700A36567 /* KSCMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3551DF50B1700A36567 /* KSCMeCell.m */; };
+		2543B3C51DF50B1700A36567 /* KSCMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3571DF50B1700A36567 /* KSCMeFooterView.m */; };
+		2543B3C61DF50B1700A36567 /* KSCSqaureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3591DF50B1700A36567 /* KSCSqaureButton.m */; };
+		2543B3C71DF50B1700A36567 /* KSCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B35D1DF50B1700A36567 /* KSCNewViewController.m */; };
+		2543B3C81DF50B1700A36567 /* NSDate+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3631DF50B1700A36567 /* NSDate+KSCExtension.m */; };
+		2543B3C91DF50B1700A36567 /* UIBarButtonItem+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3651DF50B1700A36567 /* UIBarButtonItem+KSCExtension.m */; };
+		2543B3CA1DF50B1700A36567 /* UIColor+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3671DF50B1700A36567 /* UIColor+KSCExtension.m */; };
+		2543B3CB1DF50B1700A36567 /* UIImage+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3691DF50B1700A36567 /* UIImage+KSCExtension.m */; };
+		2543B3CC1DF50B1700A36567 /* UIImageView+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B36B1DF50B1700A36567 /* UIImageView+KSCExtension.m */; };
+		2543B3CD1DF50B1700A36567 /* UIView+KSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B36D1DF50B1700A36567 /* UIView+KSCExtension.m */; };
+		2543B3CE1DF50B1700A36567 /* KSCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3701DF50B1700A36567 /* KSCNavigationController.m */; };
+		2543B3CF1DF50B1700A36567 /* KSCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3721DF50B1700A36567 /* KSCTabBarController.m */; };
+		2543B3D01DF50B1700A36567 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3731DF50B1700A36567 /* Foundation+Log.m */; };
+		2543B3D11DF50B1700A36567 /* KSCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3751DF50B1700A36567 /* KSCConst.m */; };
+		2543B3D21DF50B1700A36567 /* KSCExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3771DF50B1700A36567 /* KSCExtensionConfig.m */; };
+		2543B3D31DF50B1700A36567 /* KSCLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3791DF50B1700A36567 /* KSCLoginTool.m */; };
+		2543B3D41DF50B1700A36567 /* KSCPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B37D1DF50B1700A36567 /* KSCPushGuideView.m */; };
+		2543B3D51DF50B1700A36567 /* KSCPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B37E1DF50B1700A36567 /* KSCPushGuideView.xib */; };
+		2543B3D61DF50B1700A36567 /* KSCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3801DF50B1700A36567 /* KSCTabBar.m */; };
+		2543B3D71DF50B1700A36567 /* KSCTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3821DF50B1700A36567 /* KSCTopWindow.m */; };
+		2543B3D81DF50B1700A36567 /* KSCAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3861DF50B1700A36567 /* KSCAddTagViewController.m */; };
+		2543B3D91DF50B1700A36567 /* KSCPostWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3881DF50B1700A36567 /* KSCPostWordViewController.m */; };
+		2543B3DA1DF50B1700A36567 /* KSCPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B38A1DF50B1700A36567 /* KSCPublishViewController.m */; };
+		2543B3DB1DF50B1700A36567 /* KSCPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B38B1DF50B1700A36567 /* KSCPublishViewController.xib */; };
+		2543B3DC1DF50B1700A36567 /* KSCAddTagToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B38E1DF50B1700A36567 /* KSCAddTagToolbar.m */; };
+		2543B3DD1DF50B1700A36567 /* KSCAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2543B38F1DF50B1700A36567 /* KSCAddTagToolbar.xib */; };
+		2543B3DE1DF50B1700A36567 /* KSCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3911DF50B1700A36567 /* KSCPlaceholderTextView.m */; };
+		2543B3DF1DF50B1700A36567 /* KSCTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3931DF50B1700A36567 /* KSCTagButton.m */; };
+		2543B3E01DF50B1700A36567 /* KSCTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543B3951DF50B1700A36567 /* KSCTagTextField.m */; };
+		3607AB1F81BC8218634F39FD /* libPods-KSCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB10B6E22010A8504260EE3 /* libPods-KSCUITests.a */; };
+		E274D2B2BA11DB71AF0EEFA4 /* libPods-KSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395948BE2DB216F8A7F93147 /* libPods-KSC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E6969C1DF44DEF00A25C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E6967A1DF44DEF00A25C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E696811DF44DEF00A25C00;
+			remoteInfo = KSC;
+		};
+		20E696A71DF44DEF00A25C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E6967A1DF44DEF00A25C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E696811DF44DEF00A25C00;
+			remoteInfo = KSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E696821DF44DEF00A25C00 /* KSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E696861DF44DEF00A25C00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20E696881DF44DEF00A25C00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20E696891DF44DEF00A25C00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20E6968B1DF44DEF00A25C00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20E6968C1DF44DEF00A25C00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20E6968F1DF44DEF00A25C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20E696911DF44DEF00A25C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E696941DF44DEF00A25C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E696961DF44DEF00A25C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E6969B1DF44DEF00A25C00 /* KSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E6969F1DF44DEF00A25C00 /* KSCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCTests.m; sourceTree = "<group>"; };
+		20E696A11DF44DEF00A25C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E696A61DF44DEF00A25C00 /* KSCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E696AA1DF44DEF00A25C00 /* KSCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCUITests.m; sourceTree = "<group>"; };
+		20E696AC1DF44DEF00A25C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2543B2FD1DF50B1700A36567 /* KSCCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCCommentViewController.h; sourceTree = "<group>"; };
+		2543B2FE1DF50B1700A36567 /* KSCCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCCommentViewController.m; sourceTree = "<group>"; };
+		2543B2FF1DF50B1700A36567 /* KSCCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCCommentViewController.xib; sourceTree = "<group>"; };
+		2543B3001DF50B1700A36567 /* KSCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCEssenceViewController.h; sourceTree = "<group>"; };
+		2543B3011DF50B1700A36567 /* KSCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCEssenceViewController.m; sourceTree = "<group>"; };
+		2543B3021DF50B1700A36567 /* KSCRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendTagsViewController.h; sourceTree = "<group>"; };
+		2543B3031DF50B1700A36567 /* KSCRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendTagsViewController.m; sourceTree = "<group>"; };
+		2543B3041DF50B1700A36567 /* KSCShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCShowPictureViewController.h; sourceTree = "<group>"; };
+		2543B3051DF50B1700A36567 /* KSCShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCShowPictureViewController.m; sourceTree = "<group>"; };
+		2543B3061DF50B1700A36567 /* KSCShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCShowPictureViewController.xib; sourceTree = "<group>"; };
+		2543B3071DF50B1700A36567 /* KSCTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopicViewController.h; sourceTree = "<group>"; };
+		2543B3081DF50B1700A36567 /* KSCTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopicViewController.m; sourceTree = "<group>"; };
+		2543B30A1DF50B1700A36567 /* KSCComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCComment.h; sourceTree = "<group>"; };
+		2543B30B1DF50B1700A36567 /* KSCComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCComment.m; sourceTree = "<group>"; };
+		2543B30C1DF50B1700A36567 /* KSCRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendTag.h; sourceTree = "<group>"; };
+		2543B30D1DF50B1700A36567 /* KSCRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendTag.m; sourceTree = "<group>"; };
+		2543B30E1DF50B1700A36567 /* KSCTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopic.h; sourceTree = "<group>"; };
+		2543B30F1DF50B1700A36567 /* KSCTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopic.m; sourceTree = "<group>"; };
+		2543B3101DF50B1700A36567 /* KSCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCUser.h; sourceTree = "<group>"; };
+		2543B3111DF50B1700A36567 /* KSCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCUser.m; sourceTree = "<group>"; };
+		2543B3131DF50B1700A36567 /* KSCCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCCommentCell.h; sourceTree = "<group>"; };
+		2543B3141DF50B1700A36567 /* KSCCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCCommentCell.m; sourceTree = "<group>"; };
+		2543B3151DF50B1700A36567 /* KSCCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCCommentCell.xib; sourceTree = "<group>"; };
+		2543B3161DF50B1700A36567 /* KSCCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCCommentHeaderView.h; sourceTree = "<group>"; };
+		2543B3171DF50B1700A36567 /* KSCCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCCommentHeaderView.m; sourceTree = "<group>"; };
+		2543B3181DF50B1700A36567 /* KSCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCProgressView.h; sourceTree = "<group>"; };
+		2543B3191DF50B1700A36567 /* KSCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCProgressView.m; sourceTree = "<group>"; };
+		2543B31A1DF50B1700A36567 /* KSCRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendTagCell.h; sourceTree = "<group>"; };
+		2543B31B1DF50B1700A36567 /* KSCRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendTagCell.m; sourceTree = "<group>"; };
+		2543B31C1DF50B1700A36567 /* KSCRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCRecommendTagCell.xib; sourceTree = "<group>"; };
+		2543B31D1DF50B1700A36567 /* KSCTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopicCell.h; sourceTree = "<group>"; };
+		2543B31E1DF50B1700A36567 /* KSCTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopicCell.m; sourceTree = "<group>"; };
+		2543B31F1DF50B1700A36567 /* KSCTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCTopicCell.xib; sourceTree = "<group>"; };
+		2543B3201DF50B1700A36567 /* KSCTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopicPictureView.h; sourceTree = "<group>"; };
+		2543B3211DF50B1700A36567 /* KSCTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopicPictureView.m; sourceTree = "<group>"; };
+		2543B3221DF50B1700A36567 /* KSCTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCTopicPictureView.xib; sourceTree = "<group>"; };
+		2543B3231DF50B1700A36567 /* KSCTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopicVideoView.h; sourceTree = "<group>"; };
+		2543B3241DF50B1700A36567 /* KSCTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopicVideoView.m; sourceTree = "<group>"; };
+		2543B3251DF50B1700A36567 /* KSCTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCTopicVideoView.xib; sourceTree = "<group>"; };
+		2543B3261DF50B1700A36567 /* KSCTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopicVoiceView.h; sourceTree = "<group>"; };
+		2543B3271DF50B1700A36567 /* KSCTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopicVoiceView.m; sourceTree = "<group>"; };
+		2543B3281DF50B1700A36567 /* KSCTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCTopicVoiceView.xib; sourceTree = "<group>"; };
+		2543B32B1DF50B1700A36567 /* KSCFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCFriendTrendsViewController.h; sourceTree = "<group>"; };
+		2543B32C1DF50B1700A36567 /* KSCFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCFriendTrendsViewController.m; sourceTree = "<group>"; };
+		2543B32D1DF50B1700A36567 /* KSCFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		2543B32E1DF50B1700A36567 /* KSCLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCLoginRegisterViewController.h; sourceTree = "<group>"; };
+		2543B32F1DF50B1700A36567 /* KSCLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCLoginRegisterViewController.m; sourceTree = "<group>"; };
+		2543B3301DF50B1700A36567 /* KSCLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		2543B3311DF50B1700A36567 /* KSCRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendViewController.h; sourceTree = "<group>"; };
+		2543B3321DF50B1700A36567 /* KSCRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendViewController.m; sourceTree = "<group>"; };
+		2543B3331DF50B1700A36567 /* KSCRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCRecommendViewController.xib; sourceTree = "<group>"; };
+		2543B3351DF50B1700A36567 /* KSCRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendCategory.h; sourceTree = "<group>"; };
+		2543B3361DF50B1700A36567 /* KSCRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendCategory.m; sourceTree = "<group>"; };
+		2543B3371DF50B1700A36567 /* KSCRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendUser.h; sourceTree = "<group>"; };
+		2543B3381DF50B1700A36567 /* KSCRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendUser.m; sourceTree = "<group>"; };
+		2543B33A1DF50B1700A36567 /* KSCRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendCategoryCell.h; sourceTree = "<group>"; };
+		2543B33B1DF50B1700A36567 /* KSCRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendCategoryCell.m; sourceTree = "<group>"; };
+		2543B33C1DF50B1700A36567 /* KSCRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		2543B33D1DF50B1700A36567 /* KSCRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCRecommendUserCell.h; sourceTree = "<group>"; };
+		2543B33E1DF50B1700A36567 /* KSCRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCRecommendUserCell.m; sourceTree = "<group>"; };
+		2543B33F1DF50B1700A36567 /* KSCRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCRecommendUserCell.xib; sourceTree = "<group>"; };
+		2543B3401DF50B1700A36567 /* KSCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTextField.h; sourceTree = "<group>"; };
+		2543B3411DF50B1700A36567 /* KSCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTextField.m; sourceTree = "<group>"; };
+		2543B3421DF50B1700A36567 /* KSCVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCVerticalButton.h; sourceTree = "<group>"; };
+		2543B3431DF50B1700A36567 /* KSCVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCVerticalButton.m; sourceTree = "<group>"; };
+		2543B3461DF50B1700A36567 /* KSCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCMeViewController.h; sourceTree = "<group>"; };
+		2543B3471DF50B1700A36567 /* KSCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCMeViewController.m; sourceTree = "<group>"; };
+		2543B3481DF50B1700A36567 /* KSCSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCSettingViewController.h; sourceTree = "<group>"; };
+		2543B3491DF50B1700A36567 /* KSCSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCSettingViewController.m; sourceTree = "<group>"; };
+		2543B34A1DF50B1700A36567 /* KSCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCWebViewController.h; sourceTree = "<group>"; };
+		2543B34B1DF50B1700A36567 /* KSCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCWebViewController.m; sourceTree = "<group>"; };
+		2543B34C1DF50B1700A36567 /* KSCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCWebViewController.xib; sourceTree = "<group>"; };
+		2543B34D1DF50B1700A36567 /* LCQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQViewController.h; sourceTree = "<group>"; };
+		2543B34E1DF50B1700A36567 /* LCQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQViewController.m; sourceTree = "<group>"; };
+		2543B34F1DF50B1700A36567 /* LCQViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCQViewController.xib; sourceTree = "<group>"; };
+		2543B3511DF50B1700A36567 /* KSCSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCSquare.h; sourceTree = "<group>"; };
+		2543B3521DF50B1700A36567 /* KSCSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCSquare.m; sourceTree = "<group>"; };
+		2543B3541DF50B1700A36567 /* KSCMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCMeCell.h; sourceTree = "<group>"; };
+		2543B3551DF50B1700A36567 /* KSCMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCMeCell.m; sourceTree = "<group>"; };
+		2543B3561DF50B1700A36567 /* KSCMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCMeFooterView.h; sourceTree = "<group>"; };
+		2543B3571DF50B1700A36567 /* KSCMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCMeFooterView.m; sourceTree = "<group>"; };
+		2543B3581DF50B1700A36567 /* KSCSqaureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCSqaureButton.h; sourceTree = "<group>"; };
+		2543B3591DF50B1700A36567 /* KSCSqaureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCSqaureButton.m; sourceTree = "<group>"; };
+		2543B35C1DF50B1700A36567 /* KSCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCNewViewController.h; sourceTree = "<group>"; };
+		2543B35D1DF50B1700A36567 /* KSCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCNewViewController.m; sourceTree = "<group>"; };
+		2543B3621DF50B1700A36567 /* NSDate+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B3631DF50B1700A36567 /* NSDate+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B3641DF50B1700A36567 /* UIBarButtonItem+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B3651DF50B1700A36567 /* UIBarButtonItem+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B3661DF50B1700A36567 /* UIColor+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B3671DF50B1700A36567 /* UIColor+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B3681DF50B1700A36567 /* UIImage+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B3691DF50B1700A36567 /* UIImage+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B36A1DF50B1700A36567 /* UIImageView+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B36B1DF50B1700A36567 /* UIImageView+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B36C1DF50B1700A36567 /* UIView+KSCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KSCExtension.h"; sourceTree = "<group>"; };
+		2543B36D1DF50B1700A36567 /* UIView+KSCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KSCExtension.m"; sourceTree = "<group>"; };
+		2543B36F1DF50B1700A36567 /* KSCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCNavigationController.h; sourceTree = "<group>"; };
+		2543B3701DF50B1700A36567 /* KSCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCNavigationController.m; sourceTree = "<group>"; };
+		2543B3711DF50B1700A36567 /* KSCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTabBarController.h; sourceTree = "<group>"; };
+		2543B3721DF50B1700A36567 /* KSCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTabBarController.m; sourceTree = "<group>"; };
+		2543B3731DF50B1700A36567 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		2543B3741DF50B1700A36567 /* KSCConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCConst.h; sourceTree = "<group>"; };
+		2543B3751DF50B1700A36567 /* KSCConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCConst.m; sourceTree = "<group>"; };
+		2543B3761DF50B1700A36567 /* KSCExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCExtensionConfig.h; sourceTree = "<group>"; };
+		2543B3771DF50B1700A36567 /* KSCExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCExtensionConfig.m; sourceTree = "<group>"; };
+		2543B3781DF50B1700A36567 /* KSCLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCLoginTool.h; sourceTree = "<group>"; };
+		2543B3791DF50B1700A36567 /* KSCLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCLoginTool.m; sourceTree = "<group>"; };
+		2543B37A1DF50B1700A36567 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2543B37C1DF50B1700A36567 /* KSCPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCPushGuideView.h; sourceTree = "<group>"; };
+		2543B37D1DF50B1700A36567 /* KSCPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCPushGuideView.m; sourceTree = "<group>"; };
+		2543B37E1DF50B1700A36567 /* KSCPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCPushGuideView.xib; sourceTree = "<group>"; };
+		2543B37F1DF50B1700A36567 /* KSCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTabBar.h; sourceTree = "<group>"; };
+		2543B3801DF50B1700A36567 /* KSCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTabBar.m; sourceTree = "<group>"; };
+		2543B3811DF50B1700A36567 /* KSCTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTopWindow.h; sourceTree = "<group>"; };
+		2543B3821DF50B1700A36567 /* KSCTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTopWindow.m; sourceTree = "<group>"; };
+		2543B3851DF50B1700A36567 /* KSCAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCAddTagViewController.h; sourceTree = "<group>"; };
+		2543B3861DF50B1700A36567 /* KSCAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCAddTagViewController.m; sourceTree = "<group>"; };
+		2543B3871DF50B1700A36567 /* KSCPostWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCPostWordViewController.h; sourceTree = "<group>"; };
+		2543B3881DF50B1700A36567 /* KSCPostWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCPostWordViewController.m; sourceTree = "<group>"; };
+		2543B3891DF50B1700A36567 /* KSCPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCPublishViewController.h; sourceTree = "<group>"; };
+		2543B38A1DF50B1700A36567 /* KSCPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCPublishViewController.m; sourceTree = "<group>"; };
+		2543B38B1DF50B1700A36567 /* KSCPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCPublishViewController.xib; sourceTree = "<group>"; };
+		2543B38D1DF50B1700A36567 /* KSCAddTagToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCAddTagToolbar.h; sourceTree = "<group>"; };
+		2543B38E1DF50B1700A36567 /* KSCAddTagToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCAddTagToolbar.m; sourceTree = "<group>"; };
+		2543B38F1DF50B1700A36567 /* KSCAddTagToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCAddTagToolbar.xib; sourceTree = "<group>"; };
+		2543B3901DF50B1700A36567 /* KSCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCPlaceholderTextView.h; sourceTree = "<group>"; };
+		2543B3911DF50B1700A36567 /* KSCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCPlaceholderTextView.m; sourceTree = "<group>"; };
+		2543B3921DF50B1700A36567 /* KSCTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTagButton.h; sourceTree = "<group>"; };
+		2543B3931DF50B1700A36567 /* KSCTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTagButton.m; sourceTree = "<group>"; };
+		2543B3941DF50B1700A36567 /* KSCTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCTagTextField.h; sourceTree = "<group>"; };
+		2543B3951DF50B1700A36567 /* KSCTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCTagTextField.m; sourceTree = "<group>"; };
+		2FC4DB7C6FC42E2ECE3B23C8 /* Pods-KSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSC.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSC/Pods-KSC.release.xcconfig"; sourceTree = "<group>"; };
+		331663B77AC08D85DACB6C2B /* Pods-KSCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSCTests/Pods-KSCTests.release.xcconfig"; sourceTree = "<group>"; };
+		395948BE2DB216F8A7F93147 /* libPods-KSC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB10B6E22010A8504260EE3 /* libPods-KSCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751A6B7C3BF17D7B9CB0B678 /* libPods-KSCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A82FC9486103A76A6545F3 /* Pods-KSCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSCUITests/Pods-KSCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACDC067DF039D1C4C532779A /* Pods-KSCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSCTests/Pods-KSCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B38FE26EE816CB5AE8689BDF /* Pods-KSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSC/Pods-KSC.debug.xcconfig"; sourceTree = "<group>"; };
+		C6953591F893B54BD5F8F7AF /* Pods-KSCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSCUITests/Pods-KSCUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E6967F1DF44DEF00A25C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E274D2B2BA11DB71AF0EEFA4 /* libPods-KSC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696981DF44DEF00A25C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE8A5BD97C703A234F3CA81 /* libPods-KSCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696A31DF44DEF00A25C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3607AB1F81BC8218634F39FD /* libPods-KSCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E696791DF44DEF00A25C00 = {
+			isa = PBXGroup;
+			children = (
+				20E696841DF44DEF00A25C00 /* KSC */,
+				20E6969E1DF44DEF00A25C00 /* KSCTests */,
+				20E696A91DF44DEF00A25C00 /* KSCUITests */,
+				20E696831DF44DEF00A25C00 /* Products */,
+				69EF3AD0DE45F76D5CAAFD45 /* Pods */,
+				9F0AC105966CA7FFCD9DEACF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20E696831DF44DEF00A25C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E696821DF44DEF00A25C00 /* KSC.app */,
+				20E6969B1DF44DEF00A25C00 /* KSCTests.xctest */,
+				20E696A61DF44DEF00A25C00 /* KSCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E696841DF44DEF00A25C00 /* KSC */ = {
+			isa = PBXGroup;
+			children = (
+				2543B2FA1DF50B1700A36567 /* Classes */,
+				20E696881DF44DEF00A25C00 /* AppDelegate.h */,
+				20E696891DF44DEF00A25C00 /* AppDelegate.m */,
+				20E6968B1DF44DEF00A25C00 /* ViewController.h */,
+				20E6968C1DF44DEF00A25C00 /* ViewController.m */,
+				20E6968E1DF44DEF00A25C00 /* Main.storyboard */,
+				20E696911DF44DEF00A25C00 /* Assets.xcassets */,
+				20E696931DF44DEF00A25C00 /* LaunchScreen.storyboard */,
+				20E696961DF44DEF00A25C00 /* Info.plist */,
+				20E696851DF44DEF00A25C00 /* Supporting Files */,
+			);
+			path = KSC;
+			sourceTree = "<group>";
+		};
+		20E696851DF44DEF00A25C00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E696861DF44DEF00A25C00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20E6969E1DF44DEF00A25C00 /* KSCTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E6969F1DF44DEF00A25C00 /* KSCTests.m */,
+				20E696A11DF44DEF00A25C00 /* Info.plist */,
+			);
+			path = KSCTests;
+			sourceTree = "<group>";
+		};
+		20E696A91DF44DEF00A25C00 /* KSCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20E696AA1DF44DEF00A25C00 /* KSCUITests.m */,
+				20E696AC1DF44DEF00A25C00 /* Info.plist */,
+			);
+			path = KSCUITests;
+			sourceTree = "<group>";
+		};
+		2543B2FA1DF50B1700A36567 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2543B2FB1DF50B1700A36567 /* Essence-精华 */,
+				2543B3291DF50B1700A36567 /* FriendTrends-关注 */,
+				2543B3441DF50B1700A36567 /* Me-我 */,
+				2543B35A1DF50B1700A36567 /* New-新帖 */,
+				2543B3601DF50B1700A36567 /* Other-其他 */,
+				2543B3831DF50B1700A36567 /* Publish-发布 */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		2543B2FB1DF50B1700A36567 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B2FC1DF50B1700A36567 /* Controller */,
+				2543B3091DF50B1700A36567 /* Model */,
+				2543B3121DF50B1700A36567 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		2543B2FC1DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B2FD1DF50B1700A36567 /* KSCCommentViewController.h */,
+				2543B2FE1DF50B1700A36567 /* KSCCommentViewController.m */,
+				2543B2FF1DF50B1700A36567 /* KSCCommentViewController.xib */,
+				2543B3001DF50B1700A36567 /* KSCEssenceViewController.h */,
+				2543B3011DF50B1700A36567 /* KSCEssenceViewController.m */,
+				2543B3021DF50B1700A36567 /* KSCRecommendTagsViewController.h */,
+				2543B3031DF50B1700A36567 /* KSCRecommendTagsViewController.m */,
+				2543B3041DF50B1700A36567 /* KSCShowPictureViewController.h */,
+				2543B3051DF50B1700A36567 /* KSCShowPictureViewController.m */,
+				2543B3061DF50B1700A36567 /* KSCShowPictureViewController.xib */,
+				2543B3071DF50B1700A36567 /* KSCTopicViewController.h */,
+				2543B3081DF50B1700A36567 /* KSCTopicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B3091DF50B1700A36567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2543B30A1DF50B1700A36567 /* KSCComment.h */,
+				2543B30B1DF50B1700A36567 /* KSCComment.m */,
+				2543B30C1DF50B1700A36567 /* KSCRecommendTag.h */,
+				2543B30D1DF50B1700A36567 /* KSCRecommendTag.m */,
+				2543B30E1DF50B1700A36567 /* KSCTopic.h */,
+				2543B30F1DF50B1700A36567 /* KSCTopic.m */,
+				2543B3101DF50B1700A36567 /* KSCUser.h */,
+				2543B3111DF50B1700A36567 /* KSCUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2543B3121DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3131DF50B1700A36567 /* KSCCommentCell.h */,
+				2543B3141DF50B1700A36567 /* KSCCommentCell.m */,
+				2543B3151DF50B1700A36567 /* KSCCommentCell.xib */,
+				2543B3161DF50B1700A36567 /* KSCCommentHeaderView.h */,
+				2543B3171DF50B1700A36567 /* KSCCommentHeaderView.m */,
+				2543B3181DF50B1700A36567 /* KSCProgressView.h */,
+				2543B3191DF50B1700A36567 /* KSCProgressView.m */,
+				2543B31A1DF50B1700A36567 /* KSCRecommendTagCell.h */,
+				2543B31B1DF50B1700A36567 /* KSCRecommendTagCell.m */,
+				2543B31C1DF50B1700A36567 /* KSCRecommendTagCell.xib */,
+				2543B31D1DF50B1700A36567 /* KSCTopicCell.h */,
+				2543B31E1DF50B1700A36567 /* KSCTopicCell.m */,
+				2543B31F1DF50B1700A36567 /* KSCTopicCell.xib */,
+				2543B3201DF50B1700A36567 /* KSCTopicPictureView.h */,
+				2543B3211DF50B1700A36567 /* KSCTopicPictureView.m */,
+				2543B3221DF50B1700A36567 /* KSCTopicPictureView.xib */,
+				2543B3231DF50B1700A36567 /* KSCTopicVideoView.h */,
+				2543B3241DF50B1700A36567 /* KSCTopicVideoView.m */,
+				2543B3251DF50B1700A36567 /* KSCTopicVideoView.xib */,
+				2543B3261DF50B1700A36567 /* KSCTopicVoiceView.h */,
+				2543B3271DF50B1700A36567 /* KSCTopicVoiceView.m */,
+				2543B3281DF50B1700A36567 /* KSCTopicVoiceView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2543B3291DF50B1700A36567 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B32A1DF50B1700A36567 /* Controller */,
+				2543B3341DF50B1700A36567 /* Model */,
+				2543B3391DF50B1700A36567 /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		2543B32A1DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B32B1DF50B1700A36567 /* KSCFriendTrendsViewController.h */,
+				2543B32C1DF50B1700A36567 /* KSCFriendTrendsViewController.m */,
+				2543B32D1DF50B1700A36567 /* KSCFriendTrendsViewController.xib */,
+				2543B32E1DF50B1700A36567 /* KSCLoginRegisterViewController.h */,
+				2543B32F1DF50B1700A36567 /* KSCLoginRegisterViewController.m */,
+				2543B3301DF50B1700A36567 /* KSCLoginRegisterViewController.xib */,
+				2543B3311DF50B1700A36567 /* KSCRecommendViewController.h */,
+				2543B3321DF50B1700A36567 /* KSCRecommendViewController.m */,
+				2543B3331DF50B1700A36567 /* KSCRecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B3341DF50B1700A36567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3351DF50B1700A36567 /* KSCRecommendCategory.h */,
+				2543B3361DF50B1700A36567 /* KSCRecommendCategory.m */,
+				2543B3371DF50B1700A36567 /* KSCRecommendUser.h */,
+				2543B3381DF50B1700A36567 /* KSCRecommendUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2543B3391DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2543B33A1DF50B1700A36567 /* KSCRecommendCategoryCell.h */,
+				2543B33B1DF50B1700A36567 /* KSCRecommendCategoryCell.m */,
+				2543B33C1DF50B1700A36567 /* KSCRecommendCategoryCell.xib */,
+				2543B33D1DF50B1700A36567 /* KSCRecommendUserCell.h */,
+				2543B33E1DF50B1700A36567 /* KSCRecommendUserCell.m */,
+				2543B33F1DF50B1700A36567 /* KSCRecommendUserCell.xib */,
+				2543B3401DF50B1700A36567 /* KSCTextField.h */,
+				2543B3411DF50B1700A36567 /* KSCTextField.m */,
+				2543B3421DF50B1700A36567 /* KSCVerticalButton.h */,
+				2543B3431DF50B1700A36567 /* KSCVerticalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2543B3441DF50B1700A36567 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3451DF50B1700A36567 /* Controller */,
+				2543B3501DF50B1700A36567 /* Model */,
+				2543B3531DF50B1700A36567 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		2543B3451DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3461DF50B1700A36567 /* KSCMeViewController.h */,
+				2543B3471DF50B1700A36567 /* KSCMeViewController.m */,
+				2543B3481DF50B1700A36567 /* KSCSettingViewController.h */,
+				2543B3491DF50B1700A36567 /* KSCSettingViewController.m */,
+				2543B34A1DF50B1700A36567 /* KSCWebViewController.h */,
+				2543B34B1DF50B1700A36567 /* KSCWebViewController.m */,
+				2543B34C1DF50B1700A36567 /* KSCWebViewController.xib */,
+				2543B34D1DF50B1700A36567 /* LCQViewController.h */,
+				2543B34E1DF50B1700A36567 /* LCQViewController.m */,
+				2543B34F1DF50B1700A36567 /* LCQViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B3501DF50B1700A36567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3511DF50B1700A36567 /* KSCSquare.h */,
+				2543B3521DF50B1700A36567 /* KSCSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2543B3531DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3541DF50B1700A36567 /* KSCMeCell.h */,
+				2543B3551DF50B1700A36567 /* KSCMeCell.m */,
+				2543B3561DF50B1700A36567 /* KSCMeFooterView.h */,
+				2543B3571DF50B1700A36567 /* KSCMeFooterView.m */,
+				2543B3581DF50B1700A36567 /* KSCSqaureButton.h */,
+				2543B3591DF50B1700A36567 /* KSCSqaureButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2543B35A1DF50B1700A36567 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B35B1DF50B1700A36567 /* Controller */,
+				2543B35E1DF50B1700A36567 /* Model */,
+				2543B35F1DF50B1700A36567 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		2543B35B1DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B35C1DF50B1700A36567 /* KSCNewViewController.h */,
+				2543B35D1DF50B1700A36567 /* KSCNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B35E1DF50B1700A36567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2543B35F1DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2543B3601DF50B1700A36567 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3611DF50B1700A36567 /* Category */,
+				2543B36E1DF50B1700A36567 /* Controller */,
+				2543B3731DF50B1700A36567 /* Foundation+Log.m */,
+				2543B3741DF50B1700A36567 /* KSCConst.h */,
+				2543B3751DF50B1700A36567 /* KSCConst.m */,
+				2543B3761DF50B1700A36567 /* KSCExtensionConfig.h */,
+				2543B3771DF50B1700A36567 /* KSCExtensionConfig.m */,
+				2543B3781DF50B1700A36567 /* KSCLoginTool.h */,
+				2543B3791DF50B1700A36567 /* KSCLoginTool.m */,
+				2543B37A1DF50B1700A36567 /* PrefixHeader.pch */,
+				2543B37B1DF50B1700A36567 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		2543B3611DF50B1700A36567 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3621DF50B1700A36567 /* NSDate+KSCExtension.h */,
+				2543B3631DF50B1700A36567 /* NSDate+KSCExtension.m */,
+				2543B3641DF50B1700A36567 /* UIBarButtonItem+KSCExtension.h */,
+				2543B3651DF50B1700A36567 /* UIBarButtonItem+KSCExtension.m */,
+				2543B3661DF50B1700A36567 /* UIColor+KSCExtension.h */,
+				2543B3671DF50B1700A36567 /* UIColor+KSCExtension.m */,
+				2543B3681DF50B1700A36567 /* UIImage+KSCExtension.h */,
+				2543B3691DF50B1700A36567 /* UIImage+KSCExtension.m */,
+				2543B36A1DF50B1700A36567 /* UIImageView+KSCExtension.h */,
+				2543B36B1DF50B1700A36567 /* UIImageView+KSCExtension.m */,
+				2543B36C1DF50B1700A36567 /* UIView+KSCExtension.h */,
+				2543B36D1DF50B1700A36567 /* UIView+KSCExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2543B36E1DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B36F1DF50B1700A36567 /* KSCNavigationController.h */,
+				2543B3701DF50B1700A36567 /* KSCNavigationController.m */,
+				2543B3711DF50B1700A36567 /* KSCTabBarController.h */,
+				2543B3721DF50B1700A36567 /* KSCTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B37B1DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2543B37C1DF50B1700A36567 /* KSCPushGuideView.h */,
+				2543B37D1DF50B1700A36567 /* KSCPushGuideView.m */,
+				2543B37E1DF50B1700A36567 /* KSCPushGuideView.xib */,
+				2543B37F1DF50B1700A36567 /* KSCTabBar.h */,
+				2543B3801DF50B1700A36567 /* KSCTabBar.m */,
+				2543B3811DF50B1700A36567 /* KSCTopWindow.h */,
+				2543B3821DF50B1700A36567 /* KSCTopWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2543B3831DF50B1700A36567 /* Publish-发布 */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3841DF50B1700A36567 /* Controller */,
+				2543B38C1DF50B1700A36567 /* View */,
+			);
+			path = "Publish-发布";
+			sourceTree = "<group>";
+		};
+		2543B3841DF50B1700A36567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2543B3851DF50B1700A36567 /* KSCAddTagViewController.h */,
+				2543B3861DF50B1700A36567 /* KSCAddTagViewController.m */,
+				2543B3871DF50B1700A36567 /* KSCPostWordViewController.h */,
+				2543B3881DF50B1700A36567 /* KSCPostWordViewController.m */,
+				2543B3891DF50B1700A36567 /* KSCPublishViewController.h */,
+				2543B38A1DF50B1700A36567 /* KSCPublishViewController.m */,
+				2543B38B1DF50B1700A36567 /* KSCPublishViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2543B38C1DF50B1700A36567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2543B38D1DF50B1700A36567 /* KSCAddTagToolbar.h */,
+				2543B38E1DF50B1700A36567 /* KSCAddTagToolbar.m */,
+				2543B38F1DF50B1700A36567 /* KSCAddTagToolbar.xib */,
+				2543B3901DF50B1700A36567 /* KSCPlaceholderTextView.h */,
+				2543B3911DF50B1700A36567 /* KSCPlaceholderTextView.m */,
+				2543B3921DF50B1700A36567 /* KSCTagButton.h */,
+				2543B3931DF50B1700A36567 /* KSCTagButton.m */,
+				2543B3941DF50B1700A36567 /* KSCTagTextField.h */,
+				2543B3951DF50B1700A36567 /* KSCTagTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69EF3AD0DE45F76D5CAAFD45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38FE26EE816CB5AE8689BDF /* Pods-KSC.debug.xcconfig */,
+				2FC4DB7C6FC42E2ECE3B23C8 /* Pods-KSC.release.xcconfig */,
+				ACDC067DF039D1C4C532779A /* Pods-KSCTests.debug.xcconfig */,
+				331663B77AC08D85DACB6C2B /* Pods-KSCTests.release.xcconfig */,
+				97A82FC9486103A76A6545F3 /* Pods-KSCUITests.debug.xcconfig */,
+				C6953591F893B54BD5F8F7AF /* Pods-KSCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F0AC105966CA7FFCD9DEACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				395948BE2DB216F8A7F93147 /* libPods-KSC.a */,
+				751A6B7C3BF17D7B9CB0B678 /* libPods-KSCTests.a */,
+				6DB10B6E22010A8504260EE3 /* libPods-KSCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E696811DF44DEF00A25C00 /* KSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E696AF1DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSC" */;
+			buildPhases = (
+				63DF2AF802EF246AF8FD77FD /* [CP] Check Pods Manifest.lock */,
+				20E6967E1DF44DEF00A25C00 /* Sources */,
+				20E6967F1DF44DEF00A25C00 /* Frameworks */,
+				20E696801DF44DEF00A25C00 /* Resources */,
+				5CCC9B13223AC7B9D5F071B5 /* [CP] Embed Pods Frameworks */,
+				4BF6EB78539C5C2C923E91AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSC;
+			productName = KSC;
+			productReference = 20E696821DF44DEF00A25C00 /* KSC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20E6969A1DF44DEF00A25C00 /* KSCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E696B21DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSCTests" */;
+			buildPhases = (
+				1B85D2AF1EDB9958FFB339B9 /* [CP] Check Pods Manifest.lock */,
+				20E696971DF44DEF00A25C00 /* Sources */,
+				20E696981DF44DEF00A25C00 /* Frameworks */,
+				20E696991DF44DEF00A25C00 /* Resources */,
+				9D843DC1CFE0D1B76C2B728A /* [CP] Embed Pods Frameworks */,
+				81869A2472B3EA58347A1267 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E6969D1DF44DEF00A25C00 /* PBXTargetDependency */,
+			);
+			name = KSCTests;
+			productName = KSCTests;
+			productReference = 20E6969B1DF44DEF00A25C00 /* KSCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20E696A51DF44DEF00A25C00 /* KSCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E696B51DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSCUITests" */;
+			buildPhases = (
+				08CBCF76E7AE8C6443A84E8A /* [CP] Check Pods Manifest.lock */,
+				20E696A21DF44DEF00A25C00 /* Sources */,
+				20E696A31DF44DEF00A25C00 /* Frameworks */,
+				20E696A41DF44DEF00A25C00 /* Resources */,
+				172438675410624BA8A22138 /* [CP] Embed Pods Frameworks */,
+				92DF67A4901DB6BF6C957FF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E696A81DF44DEF00A25C00 /* PBXTargetDependency */,
+			);
+			name = KSCUITests;
+			productName = KSCUITests;
+			productReference = 20E696A61DF44DEF00A25C00 /* KSCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E6967A1DF44DEF00A25C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "林承权";
+				TargetAttributes = {
+					20E696811DF44DEF00A25C00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29XQL7WZYR;
+						ProvisioningStyle = Automatic;
+					};
+					20E6969A1DF44DEF00A25C00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29XQL7WZYR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E696811DF44DEF00A25C00;
+					};
+					20E696A51DF44DEF00A25C00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29XQL7WZYR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E696811DF44DEF00A25C00;
+					};
+				};
+			};
+			buildConfigurationList = 20E6967D1DF44DEF00A25C00 /* Build configuration list for PBXProject "KSC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E696791DF44DEF00A25C00;
+			productRefGroup = 20E696831DF44DEF00A25C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E696811DF44DEF00A25C00 /* KSC */,
+				20E6969A1DF44DEF00A25C00 /* KSCTests */,
+				20E696A51DF44DEF00A25C00 /* KSCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E696801DF44DEF00A25C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B3971DF50B1700A36567 /* KSCCommentViewController.xib in Resources */,
+				2543B3AE1DF50B1700A36567 /* KSCTopicVoiceView.xib in Resources */,
+				2543B3A81DF50B1700A36567 /* KSCTopicCell.xib in Resources */,
+				2543B3C21DF50B1700A36567 /* LCQViewController.xib in Resources */,
+				2543B3BA1DF50B1700A36567 /* KSCRecommendUserCell.xib in Resources */,
+				2543B3AA1DF50B1700A36567 /* KSCTopicPictureView.xib in Resources */,
+				20E696951DF44DEF00A25C00 /* LaunchScreen.storyboard in Resources */,
+				2543B3B41DF50B1700A36567 /* KSCRecommendViewController.xib in Resources */,
+				2543B3B21DF50B1700A36567 /* KSCLoginRegisterViewController.xib in Resources */,
+				20E696921DF44DEF00A25C00 /* Assets.xcassets in Resources */,
+				2543B3D51DF50B1700A36567 /* KSCPushGuideView.xib in Resources */,
+				2543B3B01DF50B1700A36567 /* KSCFriendTrendsViewController.xib in Resources */,
+				2543B3A21DF50B1700A36567 /* KSCCommentCell.xib in Resources */,
+				2543B3C01DF50B1700A36567 /* KSCWebViewController.xib in Resources */,
+				2543B3DD1DF50B1700A36567 /* KSCAddTagToolbar.xib in Resources */,
+				2543B3AC1DF50B1700A36567 /* KSCTopicVideoView.xib in Resources */,
+				2543B3B81DF50B1700A36567 /* KSCRecommendCategoryCell.xib in Resources */,
+				2543B3DB1DF50B1700A36567 /* KSCPublishViewController.xib in Resources */,
+				2543B3A61DF50B1700A36567 /* KSCRecommendTagCell.xib in Resources */,
+				2543B39B1DF50B1700A36567 /* KSCShowPictureViewController.xib in Resources */,
+				20E696901DF44DEF00A25C00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696991DF44DEF00A25C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696A41DF44DEF00A25C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CBCF76E7AE8C6443A84E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		172438675410624BA8A22138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCUITests/Pods-KSCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B85D2AF1EDB9958FFB339B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF6EB78539C5C2C923E91AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSC/Pods-KSC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CCC9B13223AC7B9D5F071B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSC/Pods-KSC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DF2AF802EF246AF8FD77FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81869A2472B3EA58347A1267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCTests/Pods-KSCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92DF67A4901DB6BF6C957FF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCUITests/Pods-KSCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D843DC1CFE0D1B76C2B728A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCTests/Pods-KSCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E6967E1DF44DEF00A25C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B3A11DF50B1700A36567 /* KSCCommentCell.m in Sources */,
+				2543B3D81DF50B1700A36567 /* KSCAddTagViewController.m in Sources */,
+				2543B3C11DF50B1700A36567 /* LCQViewController.m in Sources */,
+				2543B3A31DF50B1700A36567 /* KSCCommentHeaderView.m in Sources */,
+				2543B3DA1DF50B1700A36567 /* KSCPublishViewController.m in Sources */,
+				2543B3D21DF50B1700A36567 /* KSCExtensionConfig.m in Sources */,
+				2543B3C81DF50B1700A36567 /* NSDate+KSCExtension.m in Sources */,
+				2543B3C41DF50B1700A36567 /* KSCMeCell.m in Sources */,
+				2543B3DC1DF50B1700A36567 /* KSCAddTagToolbar.m in Sources */,
+				2543B3A01DF50B1700A36567 /* KSCUser.m in Sources */,
+				2543B3BB1DF50B1700A36567 /* KSCTextField.m in Sources */,
+				2543B3CE1DF50B1700A36567 /* KSCNavigationController.m in Sources */,
+				2543B3B61DF50B1700A36567 /* KSCRecommendUser.m in Sources */,
+				2543B39F1DF50B1700A36567 /* KSCTopic.m in Sources */,
+				2543B39D1DF50B1700A36567 /* KSCComment.m in Sources */,
+				2543B3C51DF50B1700A36567 /* KSCMeFooterView.m in Sources */,
+				2543B3A71DF50B1700A36567 /* KSCTopicCell.m in Sources */,
+				2543B3A41DF50B1700A36567 /* KSCProgressView.m in Sources */,
+				2543B3D31DF50B1700A36567 /* KSCLoginTool.m in Sources */,
+				2543B39A1DF50B1700A36567 /* KSCShowPictureViewController.m in Sources */,
+				2543B3B11DF50B1700A36567 /* KSCLoginRegisterViewController.m in Sources */,
+				2543B3A51DF50B1700A36567 /* KSCRecommendTagCell.m in Sources */,
+				2543B3D61DF50B1700A36567 /* KSCTabBar.m in Sources */,
+				2543B3C91DF50B1700A36567 /* UIBarButtonItem+KSCExtension.m in Sources */,
+				2543B3AB1DF50B1700A36567 /* KSCTopicVideoView.m in Sources */,
+				2543B3961DF50B1700A36567 /* KSCCommentViewController.m in Sources */,
+				2543B3E01DF50B1700A36567 /* KSCTagTextField.m in Sources */,
+				2543B39E1DF50B1700A36567 /* KSCRecommendTag.m in Sources */,
+				2543B3D01DF50B1700A36567 /* Foundation+Log.m in Sources */,
+				2543B3BF1DF50B1700A36567 /* KSCWebViewController.m in Sources */,
+				2543B3D41DF50B1700A36567 /* KSCPushGuideView.m in Sources */,
+				2543B3B91DF50B1700A36567 /* KSCRecommendUserCell.m in Sources */,
+				2543B3B31DF50B1700A36567 /* KSCRecommendViewController.m in Sources */,
+				2543B3D91DF50B1700A36567 /* KSCPostWordViewController.m in Sources */,
+				2543B3CA1DF50B1700A36567 /* UIColor+KSCExtension.m in Sources */,
+				2543B3CF1DF50B1700A36567 /* KSCTabBarController.m in Sources */,
+				2543B39C1DF50B1700A36567 /* KSCTopicViewController.m in Sources */,
+				2543B3981DF50B1700A36567 /* KSCEssenceViewController.m in Sources */,
+				2543B3D11DF50B1700A36567 /* KSCConst.m in Sources */,
+				2543B3CD1DF50B1700A36567 /* UIView+KSCExtension.m in Sources */,
+				2543B3BE1DF50B1700A36567 /* KSCSettingViewController.m in Sources */,
+				20E6968D1DF44DEF00A25C00 /* ViewController.m in Sources */,
+				2543B3DE1DF50B1700A36567 /* KSCPlaceholderTextView.m in Sources */,
+				2543B3C71DF50B1700A36567 /* KSCNewViewController.m in Sources */,
+				2543B3B71DF50B1700A36567 /* KSCRecommendCategoryCell.m in Sources */,
+				2543B3AD1DF50B1700A36567 /* KSCTopicVoiceView.m in Sources */,
+				2543B3C61DF50B1700A36567 /* KSCSqaureButton.m in Sources */,
+				2543B3D71DF50B1700A36567 /* KSCTopWindow.m in Sources */,
+				2543B3BC1DF50B1700A36567 /* KSCVerticalButton.m in Sources */,
+				2543B3B51DF50B1700A36567 /* KSCRecommendCategory.m in Sources */,
+				2543B3BD1DF50B1700A36567 /* KSCMeViewController.m in Sources */,
+				2543B3AF1DF50B1700A36567 /* KSCFriendTrendsViewController.m in Sources */,
+				20E6968A1DF44DEF00A25C00 /* AppDelegate.m in Sources */,
+				2543B3CB1DF50B1700A36567 /* UIImage+KSCExtension.m in Sources */,
+				2543B3A91DF50B1700A36567 /* KSCTopicPictureView.m in Sources */,
+				2543B3991DF50B1700A36567 /* KSCRecommendTagsViewController.m in Sources */,
+				2543B3DF1DF50B1700A36567 /* KSCTagButton.m in Sources */,
+				2543B3C31DF50B1700A36567 /* KSCSquare.m in Sources */,
+				2543B3CC1DF50B1700A36567 /* UIImageView+KSCExtension.m in Sources */,
+				20E696871DF44DEF00A25C00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696971DF44DEF00A25C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E696A01DF44DEF00A25C00 /* KSCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E696A21DF44DEF00A25C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E696AB1DF44DEF00A25C00 /* KSCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E6969D1DF44DEF00A25C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E696811DF44DEF00A25C00 /* KSC */;
+			targetProxy = 20E6969C1DF44DEF00A25C00 /* PBXContainerItemProxy */;
+		};
+		20E696A81DF44DEF00A25C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E696811DF44DEF00A25C00 /* KSC */;
+			targetProxy = 20E696A71DF44DEF00A25C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20E6968E1DF44DEF00A25C00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E6968F1DF44DEF00A25C00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20E696931DF44DEF00A25C00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E696941DF44DEF00A25C00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E696AD1DF44DEF00A25C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20E696AE1DF44DEF00A25C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E696B01DF44DEF00A25C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38FE26EE816CB5AE8689BDF /* Pods-KSC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/Other-其他/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				INFOPLIST_FILE = KSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbzlsjhdn.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		20E696B11DF44DEF00A25C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC4DB7C6FC42E2ECE3B23C8 /* Pods-KSC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/Other-其他/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				INFOPLIST_FILE = KSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbzlsjhdn.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		20E696B31DF44DEF00A25C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDC067DF039D1C4C532779A /* Pods-KSCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				INFOPLIST_FILE = KSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Lin.KSCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSC.app/KSC";
+			};
+			name = Debug;
+		};
+		20E696B41DF44DEF00A25C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331663B77AC08D85DACB6C2B /* Pods-KSCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				INFOPLIST_FILE = KSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Lin.KSCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSC.app/KSC";
+			};
+			name = Release;
+		};
+		20E696B61DF44DEF00A25C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A82FC9486103A76A6545F3 /* Pods-KSCUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				INFOPLIST_FILE = KSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Lin.KSCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSC;
+			};
+			name = Debug;
+		};
+		20E696B71DF44DEF00A25C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6953591F893B54BD5F8F7AF /* Pods-KSCUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29XQL7WZYR;
+				INFOPLIST_FILE = KSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Lin.KSCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E6967D1DF44DEF00A25C00 /* Build configuration list for PBXProject "KSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E696AD1DF44DEF00A25C00 /* Debug */,
+				20E696AE1DF44DEF00A25C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E696AF1DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E696B01DF44DEF00A25C00 /* Debug */,
+				20E696B11DF44DEF00A25C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E696B21DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E696B31DF44DEF00A25C00 /* Debug */,
+				20E696B41DF44DEF00A25C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E696B51DF44DEF00A25C00 /* Build configuration list for PBXNativeTarget "KSCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E696B61DF44DEF00A25C00 /* Debug */,
+				20E696B71DF44DEF00A25C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E6967A1DF44DEF00A25C00 /* Project object */;
+}

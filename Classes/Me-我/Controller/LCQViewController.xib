@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LCQViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gV-pz-hrB">
+                    <rect key="frame" x="175" y="567" width="200" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="ntR-hs-QCD"/>
+                        <constraint firstAttribute="height" constant="50" id="xD0-iC-0Nc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="Phone：13806064395"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlE-3A-Me4">
+                    <rect key="frame" x="215" y="617" width="160" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1zk-k7-wQm"/>
+                        <constraint firstAttribute="width" constant="160" id="9UG-eA-IJW"/>
+                    </constraints>
+                    <state key="normal" title="QQ:275067370"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtz-DO-JeR">
+                    <rect key="frame" x="137" y="100" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Icw-74-Z6F"/>
+                        <constraint firstAttribute="height" constant="50" id="lqu-MP-aIo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="林承权">
+                        <color key="titleColor" red="1" green="0.39592666420453826" blue="0.38294764816738491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xtz-DO-JeR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HRd-3y-RTJ"/>
+                <constraint firstAttribute="bottom" secondItem="jlE-3A-Me4" secondAttribute="bottom" id="LYL-bm-uGk"/>
+                <constraint firstAttribute="trailing" secondItem="3gV-pz-hrB" secondAttribute="trailing" id="c0b-sH-UWz"/>
+                <constraint firstItem="jlE-3A-Me4" firstAttribute="top" secondItem="3gV-pz-hrB" secondAttribute="bottom" id="jCT-Es-unr"/>
+                <constraint firstAttribute="trailing" secondItem="jlE-3A-Me4" secondAttribute="trailing" id="qwl-If-f3f"/>
+                <constraint firstItem="Xtz-DO-JeR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="z0S-jL-Ii9"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

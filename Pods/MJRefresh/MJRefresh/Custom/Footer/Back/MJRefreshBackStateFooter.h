@@ -3,7 +3,7 @@
 //  MJRefreshExample
 //
 //  Created by MJ Lee on 15/6/13.
-//  Copyright © 2015年 小码哥. All rights reserved.
+//  Copyright © 2015年 Leonlincq. All rights reserved.
 //
 
 #import "MJRefreshBackFooter.h"

@@ -1,0 +1,39 @@
+//
+//  KSCTagTextField.m
+//  快上车
+//
+//  Created by Leonlincq on 15/8/5.
+//  Copyright (c) 2015年 Leonlincq. All rights reserved.
+//
+
+#import "KSCTagTextField.h"
+
+@implementation KSCTagTextField
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        self.placeholder = @"多个标签用逗号或者换行隔开";
+        // 设置了占位文字内容以后, 才能设置占位文字的颜色
+        [self setValue:[UIColor grayColor] forKeyPath:@"_placeholderLabel.textColor"];
+        self.height = KSCTagH;
+    }
+    return self;
+}
+
+// 也能在这个方法中监听键盘的输入，比如输入“换行”
+//- (void)insertText:(NSString *)text
+//{
+//    [super insertText:text];
+//    
+//    KSCLog(@"%d", [text isEqualToString:@"\n"]);
+//}
+
+- (void)deleteBackward
+{
+    !self.deleteBlock ? : self.deleteBlock();
+    
+    [super deleteBackward];
+}
+
+@end
